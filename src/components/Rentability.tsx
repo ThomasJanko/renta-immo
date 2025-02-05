@@ -131,6 +131,7 @@ export default function Rentability() {
 
         {/* Cashflow Net Net Result */}
         <div className="mt-4 p-3 bg-blue-100 text-blue-800 font-semibold rounded-lg text-center">
+          Cashflow Net-Net :{' '}
           <span
             className={netCashflow >= 0 ? 'text-green-600' : 'text-red-600'}
           >
