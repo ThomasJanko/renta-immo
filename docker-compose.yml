@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  renta-immo:
+    build: .
+    ports:
+      - '8888:80'
+    container_name: renta_immo
+    restart: always
