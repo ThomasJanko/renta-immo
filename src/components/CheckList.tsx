@@ -1,5 +1,6 @@
 import { FaBuilding, FaChartLine, FaKey } from 'react-icons/fa'
 import Property from './checklist/Property'
+import Rent from './checklist/Rent'
 
 export default function CheckList() {
   return (
@@ -37,10 +38,12 @@ export default function CheckList() {
 
           {/* PART 2 */}
           <div className="relative flex items-center space-x-4">
-            <FaBuilding className="absolute left-[-50px] text-amber-600 text-4xl bg-white p-1 rounded-full border border-amber-600" />
+            <FaBuilding
+              size={40}
+              className="absolute left-[-50px] text-amber-600 bg-white p-1 rounded-full border border-amber-600"
+            />
             <div className="p-6 bg-gray-100 rounded-lg shadow-md w-full">
-              <h2 className="font-bold text-lg text-amber-600">PART 2</h2>
-              <p>Content for Part 2...</p>
+              <Rent />
             </div>
           </div>
 

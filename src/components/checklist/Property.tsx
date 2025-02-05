@@ -91,9 +91,9 @@ export default function Property() {
             }
           />
           <input
-            type="text"
+            type="number"
             placeholder="Code Postal"
-            className="p-2 border border-gray-300 rounded-lg w-1/4"
+            className="p-2 border border-gray-300 rounded-lg w-1/4 no-arrows"
             value={infos.location.zip}
             onChange={(e) =>
               setInfos((prevInfos) => ({
