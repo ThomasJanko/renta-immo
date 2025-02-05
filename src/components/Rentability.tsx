@@ -60,7 +60,7 @@ export default function Rentability() {
             <input
               type="number"
               min={0}
-              className="p-3 border-l-xl w-[90%] no-arrows"
+              className="p-3 border-l-xl w-[90%] no-arrows rounded-l-xl"
               value={charges.copopriety.value}
               onChange={(e) =>
                 setCharges({
@@ -88,7 +88,7 @@ export default function Rentability() {
             <input
               type="number"
               min={0}
-              className="p-3 border-l-xl w-[90%] no-arrows"
+              className="p-3 border-l-xl w-[90%] no-arrows rounded-l-xl"
               value={charges.energy.value}
               onChange={(e) =>
                 setCharges({
